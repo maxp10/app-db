@@ -9,7 +9,7 @@ import java.util.Random;
 public class ServiceDb {
 	
 	
-	public String generateInsult() {
+	public String generate() {
 		String words[][] = {{"Artless", "Bawdy", "Beslubbering"}, {"Base-court", "Bat-fowling", "Beef-witted"}, {"Apple-john", "Baggage", "Barnacle"}};
 		String vowels = "AEIOU";
 		String article = "an";
