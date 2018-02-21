@@ -1,4 +1,4 @@
-package org.openshift;
+package com.sorint.openshift;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
