@@ -30,7 +30,7 @@ public class InsultGenerator {
 			out="IP "+out;
 
 		
-		return String.format("Thou art %s %s %s %s!", article, firstAdjective, secondAdjective, out);
+		return String.format(out+"  UPD %s %s %s %s!", article, firstAdjective, secondAdjective, noun);
 	}
 
 	
