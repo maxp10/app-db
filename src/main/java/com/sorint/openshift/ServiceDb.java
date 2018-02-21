@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 import java.util.Enumeration;
 import java.util.Random;
 
-public class InsultGenerator {
+public class ServiceDb {
 	
 	
 	public String generateInsult() {
