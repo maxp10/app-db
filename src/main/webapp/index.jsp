@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<%
-			out.println(new ServiceDbAccess().generate());
+			out.println(new ServiceDb().generate());
 		%>	
 	</body>
 </html>
