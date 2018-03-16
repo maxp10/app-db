@@ -14,7 +14,8 @@ public class ServiceApi {
 	@Produces("application/json")
 	public HashMap<String, String> getInsult() {
 		HashMap<String, String> theInsult = new HashMap<String, String>();
-		theInsult.put("generate: ", new ServiceDb().generate());
+//		theInsult.put("generate: ", new ServiceDb().generate());
+		theInsult.put("generate: ", new ServiceDbAccess().generate());
 		return theInsult;
 	}
 }
